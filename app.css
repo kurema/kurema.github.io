@@ -7,6 +7,10 @@
 span {
 }
 
+hr{
+    border-top: 1px dashed gray;
+}
+
 footer{
     background-color:darkslategray;
     color:white;
@@ -47,11 +51,12 @@ footer div.item li{
 footer div.item a{
     color:rgba(255,255,255,0.8);
     text-decoration:none;
+    transition: all 100ms 0s ease;
 }
 
 footer div.item a:hover{
     color:white;
-    text-decoration:underline;
+    /*text-decoration:underline;*/
 }
 
 footer div.item img{
@@ -65,14 +70,24 @@ footer div.item img{
 article{
     word-wrap:break-word;
     margin:10px 0 10px 0;
-    
+    /*font-size:11pt;*/
 }
 
-article img.background{
-    /*ToDo*/
-    height:100vh;
-    width:auto;
-    filter:grayscale;
+article table{
+    width:100%;
+    border:0;
+}
+
+article table tr{
+}
+
+article table th,article table td{
+    padding:25px 0 25px 0;
+    text-align:left;
+}
+
+article table th{
+    width:30%;
 }
 
 div.wrapper{
@@ -123,3 +138,26 @@ div.title{
     text-align:center;
     font-family:"游明朝","ヒラギノ明朝 ProN W6";
 }
+
+div.number_box_container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+}
+
+div.number_box{
+    width:30%;
+    margin-right: 5%;
+}
+
+div.number_box h2.number{
+    font-size:60px;
+    margin:0px;
+    font-family: "游明朝","ヒラギノ明朝 ProN W6";
+}
+
+div.number_box p{
+    /*color:rgba(0,0,0,0.6);*/
+    font-size:0.9em;
+}
+

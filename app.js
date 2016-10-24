@@ -13,6 +13,12 @@ var GeneralApi = (function () {
         xhr.open("GET", url);
         xhr.send();
     };
+    GeneralApi.ReplaceTextByClass = function (text, class_name) {
+        var titles = document.getElementsByClassName(class_name);
+        for (var i = 0; i < titles.length; i++) {
+            titles[i].textContent = text;
+        }
+    };
     return GeneralApi;
 }());
 var GithubApi = (function () {
@@ -111,10 +117,8 @@ window.onload = function () {
             item.PushList(content.follow[i].Title, content.follow[i].Reference, content.follow[i].Icon);
         }
         Footer.OverwriteItem(item, itemFollowPlaceHolder);
-        var titles = document.getElementsByClassName("title");
-        for (var i = 0; i < titles.length; i++) {
-            titles[i].textContent = content.title;
-        }
+        GeneralApi.ReplaceTextByClass(content.title, "title");
+        GeneralApi.ReplaceTextByClass(content.author, "kurema");
     });
     var itemProjectsPlaceHolder = Footer.AddPlaceHolder("Projects");
     var githubApi = new GithubApi();
@@ -126,6 +130,8 @@ window.onload = function () {
             }
             Footer.OverwriteItem(projectItem, itemProjectsPlaceHolder);
         });
+        GeneralApi.ReplaceTextByClass(content.public_repos, "github_repo_count");
+        GeneralApi.ReplaceTextByClass(content.followers, "github_followers");
     });
     var article = document.getElementById("mainArticle");
 };

@@ -11,6 +11,13 @@
         xhr.open("GET", url);
         xhr.send();
     }
+
+    static ReplaceTextByClass(text: string, class_name: string) {
+        var titles = document.getElementsByClassName(class_name);
+        for (var i = 0; i < titles.length; i++) {
+            titles[i].textContent = text;
+        }
+    }
 }
 
 
@@ -127,10 +134,8 @@ window.onload = () => {
         }
         Footer.OverwriteItem(item, itemFollowPlaceHolder);
 
-        var titles = document.getElementsByClassName("title");
-        for (var i = 0; i < titles.length; i++) {
-            titles[i].textContent = content.title;
-        }
+        GeneralApi.ReplaceTextByClass(content.title, "title");
+        GeneralApi.ReplaceTextByClass(content.author, "kurema");
     });
 
     var itemProjectsPlaceHolder = Footer.AddPlaceHolder("Projects");
@@ -142,7 +147,10 @@ window.onload = () => {
                 projectItem.PushList(contentRepo[j].name, contentRepo[j].html_url);
             }
             Footer.OverwriteItem(projectItem, itemProjectsPlaceHolder);
+
         });
+        GeneralApi.ReplaceTextByClass(content.public_repos, "github_repo_count");
+        GeneralApi.ReplaceTextByClass(content.followers, "github_followers");
     });
 
     var article = document.getElementById("mainArticle");
