@@ -1,0 +1,25 @@
+{
+  "follow": [
+    {
+      "Title": "Github",
+      "Reference": "https://github.com/kurema",
+      "Icon": "logo/GitHub-Mark-Light-64px.png"
+    },
+    {
+      "Title": "Twitter",
+      "Reference": "https://twitter.com/kurema_makoto",
+      "Icon": "logo/Twitter_Logo_White_On_Blue.svg"
+    },
+    {
+      "Title": "Blog",
+      "Reference": "https://kuremako.wordpress.com",
+      "Icon": "https://s.w.org/about/images/logos/wordpress-logo-32-blue.png"
+    },
+    {
+      "Title": "Youtube",
+      "Reference": "https://www.youtube.com/channel/UCRXOgsw-LUdgPSN95myPw7g",
+      "Icon": "logo/YouTube-social-circle_red_48px.png"
+    }
+  ],
+  "title": "kurema"
+}

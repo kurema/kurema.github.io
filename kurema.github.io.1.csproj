@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo\Twitter_Brand_Guidelines_V1.1.pdf" />
+    <Content Include="data\data.json" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

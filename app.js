@@ -1,11 +1,7 @@
-var GithubApi = (function () {
-    function GithubApi() {
-        this.APIUrl = "https://api.github.com";
+var GeneralApi = (function () {
+    function GeneralApi() {
     }
-    GithubApi.prototype.GetJSON = function (site, callback) {
-        GithubApi.GetJSONSimple(this.APIUrl + site, callback);
-    };
-    GithubApi.GetJSONSimple = function (url, callback) {
+    GeneralApi.GetJSONSimple = function (url, callback) {
         var xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4) {
@@ -17,6 +13,15 @@ var GithubApi = (function () {
         xhr.open("GET", url);
         xhr.send();
     };
+    return GeneralApi;
+}());
+var GithubApi = (function () {
+    function GithubApi() {
+        this.APIUrl = "https://api.github.com";
+    }
+    GithubApi.prototype.GetJSON = function (site, callback) {
+        GeneralApi.GetJSONSimple(this.APIUrl + site, callback);
+    };
     GithubApi.prototype.GetUserJSON = function (user, callback) {
         this.GetJSON("/users/" + user, callback);
     };
@@ -25,9 +30,22 @@ var GithubApi = (function () {
 var Footer = (function () {
     function Footer() {
     }
-    Footer.prototype.AddItem = function (item) {
+    Footer.AddItem = function (item) {
         var container = document.getElementById("footer_container");
-        container.appendChild(item.GetHtml());
+        return container.appendChild(item.GetHtml());
+    };
+    Footer.AddPlaceHolder = function (title) {
+        if (title == null) {
+            title = "Loading";
+        }
+        var item = new FooterItem(title);
+        return this.AddItem(item);
+    };
+    Footer.OverwriteItem = function (item, node) {
+        var container = document.getElementById("footer_container");
+        var result = container.insertBefore(item.GetHtml(), node);
+        container.removeChild(node);
+        return result;
     };
     return Footer;
 }());
@@ -86,24 +104,29 @@ var FooterList = (function () {
     return FooterList;
 }());
 window.onload = function () {
-    var footer = new Footer();
-    var item = new FooterItem("Follow");
-    item.PushList("Github", "https://github.com/kurema", "logo/GitHub-Mark-Light-64px.png");
-    item.PushList("Twitter", "https://twitter.com/kurema_makoto", "logo/Twitter_Logo_White_On_Blue.svg");
-    item.PushList("Blog", "https://kuremako.wordpress.com", "https://s.w.org/about/images/logos/wordpress-logo-32-blue.png");
-    item.PushList("Youtube", "https://www.youtube.com/channel/UCRXOgsw-LUdgPSN95myPw7g", "logo/YouTube-social-circle_red_48px.png");
-    footer.AddItem(item);
-    var projectItem = new FooterItem("Projects");
+    var itemFollowPlaceHolder = Footer.AddPlaceHolder("Follow");
+    GeneralApi.GetJSONSimple("data/data.json", function (content) {
+        var item = new FooterItem("Follow");
+        for (var i = 0; i < content.follow.length; i++) {
+            item.PushList(content.follow[i].Title, content.follow[i].Reference, content.follow[i].Icon);
+        }
+        Footer.OverwriteItem(item, itemFollowPlaceHolder);
+        var titles = document.getElementsByClassName("title");
+        for (var i = 0; i < titles.length; i++) {
+            titles[i].textContent = content.title;
+        }
+    });
+    var itemProjectsPlaceHolder = Footer.AddPlaceHolder("Projects");
     var githubApi = new GithubApi();
     githubApi.GetUserJSON("kurema", function (content) {
-        GithubApi.GetJSONSimple(content.repos_url, function (contentRepo) {
+        GeneralApi.GetJSONSimple(content.repos_url, function (contentRepo) {
+            var projectItem = new FooterItem("Projects");
             for (var j = 0; j < contentRepo.length; j++) {
                 projectItem.PushList(contentRepo[j].name, contentRepo[j].html_url);
             }
-            footer.AddItem(projectItem);
+            Footer.OverwriteItem(projectItem, itemProjectsPlaceHolder);
         });
     });
     var article = document.getElementById("mainArticle");
-    article.innerText += "工事中です。 ";
 };
 //# sourceMappingURL=app.js.map

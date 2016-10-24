@@ -1,9 +1,4 @@
-﻿class GithubApi {
-    APIUrl: string = "https://api.github.com";
-    GetJSON(site: string, callback: (content: any) => void) {
-        GithubApi.GetJSONSimple(this.APIUrl + site, callback);
-    }
-
+﻿class GeneralApi {
     static GetJSONSimple(url: string, callback: (content: any) => void) {
         var xhr = new XMLHttpRequest();
         xhr.onreadystatechange = () => {
@@ -16,6 +11,14 @@
         xhr.open("GET", url);
         xhr.send();
     }
+}
+
+
+class GithubApi {
+    APIUrl: string = "https://api.github.com";
+    GetJSON(site: string, callback: (content: any) => void) {
+        GeneralApi.GetJSONSimple(this.APIUrl + site, callback);
+    }
 
     GetUserJSON(user: string, callback: (content: any) => void) {
         this.GetJSON("/users/" + user, callback);
@@ -24,9 +27,24 @@
 
 class Footer {
 
-    AddItem(item: FooterItem) {
+    static AddItem(item: FooterItem): Node {
         var container = document.getElementById("footer_container");
-        container.appendChild(item.GetHtml());
+        return container.appendChild(item.GetHtml());
+    }
+
+    static AddPlaceHolder(title?: string): Node {
+        if (title == null) {
+            title = "Loading";
+        }
+        var item = new FooterItem(title);
+        return this.AddItem(item);
+    }
+
+    static OverwriteItem(item: FooterItem,node:Node): Node {
+        var container = document.getElementById("footer_container");
+        var result = container.insertBefore(item.GetHtml(), node);
+        container.removeChild(node);
+        return result;
     }
 
 }
@@ -101,27 +119,31 @@ class FooterList {
 }
 
 window.onload = () => {
-    var footer = new Footer();
+    var itemFollowPlaceHolder = Footer.AddPlaceHolder("Follow");
+    GeneralApi.GetJSONSimple("data/data.json", (content) => {
+        var item = new FooterItem("Follow");
+        for (var i = 0; i < content.follow.length; i++) {
+            item.PushList(content.follow[i].Title, content.follow[i].Reference, content.follow[i].Icon);
+        }
+        Footer.OverwriteItem(item, itemFollowPlaceHolder);
 
-    var item = new FooterItem("Follow");
-    item.PushList("Github", "https://github.com/kurema","logo/GitHub-Mark-Light-64px.png");
-    item.PushList("Twitter", "https://twitter.com/kurema_makoto", "logo/Twitter_Logo_White_On_Blue.svg");
-    item.PushList("Blog", "https://kuremako.wordpress.com", "https://s.w.org/about/images/logos/wordpress-logo-32-blue.png");
-    item.PushList("Youtube", "https://www.youtube.com/channel/UCRXOgsw-LUdgPSN95myPw7g", "logo/YouTube-social-circle_red_48px.png");
+        var titles = document.getElementsByClassName("title");
+        for (var i = 0; i < titles.length; i++) {
+            titles[i].textContent = content.title;
+        }
+    });
 
-    footer.AddItem(item);
-
-    var projectItem = new FooterItem("Projects");
+    var itemProjectsPlaceHolder = Footer.AddPlaceHolder("Projects");
     var githubApi = new GithubApi();
     githubApi.GetUserJSON("kurema", (content) => {
-        GithubApi.GetJSONSimple(content.repos_url, (contentRepo) => {
+        GeneralApi.GetJSONSimple(content.repos_url, (contentRepo) => {
+            var projectItem = new FooterItem("Projects");
             for (var j = 0; j < contentRepo.length; j++) {
                 projectItem.PushList(contentRepo[j].name, contentRepo[j].html_url);
             }
-            footer.AddItem(projectItem);
+            Footer.OverwriteItem(projectItem, itemProjectsPlaceHolder);
         });
     });
 
     var article = document.getElementById("mainArticle");
-    article.innerText += "工事中です。 ";
 };
