@@ -23,13 +23,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="image\aoyama.png" />
     <Content Include="index.html" />
+    <Content Include="logo\GitHub-Mark-64px.png" />
+    <Content Include="logo\GitHub-Mark-Light-64px.png" />
+    <Content Include="logo\nico_white.png" />
+    <Content Include="logo\nico_white_license.txt" />
+    <Content Include="logo\Twitter_Logo_White_On_Blue.svg" />
+    <Content Include="logo\YouTube-social-circle_dark_48px.png" />
+    <Content Include="logo\YouTube-social-circle_red_48px.png" />
+    <Content Include="logo\Youtube_logo_license.txt" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="logo\Twitter_Brand_Guidelines_V1.1.pdf" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

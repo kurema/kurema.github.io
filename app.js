@@ -88,10 +88,10 @@ var FooterList = (function () {
 window.onload = function () {
     var footer = new Footer();
     var item = new FooterItem("Follow");
-    item.PushList("Github", "https://github.com/kurema", "image/GitHub-Mark-Light-64px.png");
-    item.PushList("Twitter", "https://twitter.com/kurema_makoto", "image/Twitter_Logo_White_On_Blue.svg");
+    item.PushList("Github", "https://github.com/kurema", "logo/GitHub-Mark-Light-64px.png");
+    item.PushList("Twitter", "https://twitter.com/kurema_makoto", "logo/Twitter_Logo_White_On_Blue.svg");
     item.PushList("Blog", "https://kuremako.wordpress.com", "https://s.w.org/about/images/logos/wordpress-logo-32-blue.png");
-    item.PushList("Youtube", "https://www.youtube.com/channel/UCRXOgsw-LUdgPSN95myPw7g", "image/YouTube-social-circle_red_48px.png");
+    item.PushList("Youtube", "https://www.youtube.com/channel/UCRXOgsw-LUdgPSN95myPw7g", "logo/YouTube-social-circle_red_48px.png");
     footer.AddItem(item);
     var projectItem = new FooterItem("Projects");
     var githubApi = new GithubApi();
@@ -103,5 +103,7 @@ window.onload = function () {
             footer.AddItem(projectItem);
         });
     });
+    var article = document.getElementById("mainArticle");
+    article.innerText += "工事中です。 ";
 };
 //# sourceMappingURL=app.js.map
