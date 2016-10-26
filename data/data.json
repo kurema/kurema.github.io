@@ -19,6 +19,11 @@
       "Title": "Youtube",
       "Reference": "https://www.youtube.com/channel/UCRXOgsw-LUdgPSN95myPw7g",
       "Icon": "logo/YouTube-social-circle_red_48px.png"
+    },
+    {
+      "Title": "niconico Seiga",
+      "Reference": "http//seiga.nicovideo.jp/user/illust/37825472",
+      "Icon": "http://seiga.nicovideo.jp/favicon.ico"
     }
   ],
   "title": "kurema",
