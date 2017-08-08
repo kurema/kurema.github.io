@@ -3,7 +3,7 @@
         var xhr = new XMLHttpRequest();
         xhr.onreadystatechange = () => {
             if (xhr.readyState === 4) {
-                if (xhr.status = 200) {
+                if (xhr.status === 200) {
                     callback(JSON.parse(xhr.responseText));
                 }
             }
