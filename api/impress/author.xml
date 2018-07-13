@@ -11,13 +11,13 @@
     <group title="Crypto Currency">
       <title>
         <multilingal>
-          <entry language="ja-jp">仮想通貨</entry>
+          <entry language="ja">仮想通貨</entry>
           <entry language="en">Crypto Currency</entry>
         </multilingal>
       </title>
-      <donation title="Monacoin" src="monacoin:MDGaLPfnvrFaKFzFehpv359ndHq3KcLMLx?label=https%3A%2F%2Fgithub.com%2Fkurema%2FWordbookImpressApp" />
-      <donation title="Ringo" src="ringo:RF1oivTq8BshPaxgGmguNfDXUGQYSPHmH8?label=https%3A%2F%2Fgithub.com%2Fkurema%2FWordbookImpressApp" />
-      <donation title="BitZeny" src="bitzeny:ZhWHtnWUh5VCMPkUUB9iXxMKcZEFC17UUT?label=https%3A%2F%2Fgithub.com%2Fkurema%2FWordbookImpressApp"/>
+      <donation title="Monacoin" src="monacoin:MDGaLPfnvrFaKFzFehpv359ndHq3KcLMLx?label=https%3A%2F%2Fgithub.com%2Fkurema%2FWordbookImpressApp" address="MDGaLPfnvrFaKFzFehpv359ndHq3KcLMLx"/>
+      <donation title="Ringo" src="ringo:RF1oivTq8BshPaxgGmguNfDXUGQYSPHmH8?label=https%3A%2F%2Fgithub.com%2Fkurema%2FWordbookImpressApp" address="RF1oivTq8BshPaxgGmguNfDXUGQYSPHmH8"/>
+      <donation title="BitZeny" src="bitzeny:ZhWHtnWUh5VCMPkUUB9iXxMKcZEFC17UUT?label=https%3A%2F%2Fgithub.com%2Fkurema%2FWordbookImpressApp" address="ZhWHtnWUh5VCMPkUUB9iXxMKcZEFC17UUT"/>
     </group>
   </donations>
 </author>
