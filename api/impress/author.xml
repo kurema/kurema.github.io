@@ -49,13 +49,13 @@
           <entry language="en">Affiliate</entry>
         </multilingal>
       </title>
-      <donation address="https://zaif.jp/?ac=jtw24dtk0o" title="Zaif" />
-      <donation address="https://bitflyer.jp/?bf=20dl0ur1" title="bitFlyer" />
-      <donation address="https://coincheck.com/?c=hFtRhdWrTIs" title="coincheck" />
-      <donation address="https://www.binance.com/?ref=17116052" title="Binance" />
+      <donation src="https://zaif.jp/?ac=jtw24dtk0o" title="Zaif" />
+      <donation src="https://bitflyer.jp/?bf=20dl0ur1" title="bitFlyer" />
+      <donation src="https://coincheck.com/?c=hFtRhdWrTIs" title="coincheck" />
+      <donation src="https://www.binance.com/?ref=17116052" title="Binance" />
     </group>
     <group title="Link">
-      <donation address="https://kuremako.wordpress.com/donation/" title="kuremako.wordpress.com/donation/" />
+      <donation src="https://kuremako.wordpress.com/donation/" title="kuremako.wordpress.com/donation/" />
     </group>
 
   </donations>
