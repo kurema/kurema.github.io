@@ -26,5 +26,37 @@
       <!--<donation title="koto" address="k1Kst8UmPAHgLbGXg7okD4HqbCfPrJQ6Wok" />-->
       <!--<donation title="NEETCOIN" address="NhX4FB5ZioHuwgM4CDEM6BEanGzTf5P9Gk"/>-->
     </group>
+    <group title="Present">
+      <title>
+        <multilingal>
+          <entry language="ja">プレゼント</entry>
+          <entry language="en">Crypto Currency</entry>
+        </multilingal>
+      </title>
+      <donation title="Amazon Wish list" src="https://www.amazon.co.jp/registry/wishlist/2V4H9YB1CV3PV/ref=as_li_ss_tl?ie=UTF8&amp;linkCode=ll2&amp;tag=kurema_wbimpress-22&amp;linkId=b0832fb00a5f6ae2421b5bb2af45cf4a">
+        <title>
+          <multilingal>
+            <entry language="ja">ほしい物リスト</entry>
+            <entry language="en">Wish list</entry>
+          </multilingal>
+        </title>
+      </donation>
+    </group>
+    <group title="Affiliate">
+      <title>
+        <multilingal>
+          <entry language="ja">アフィリエイトリンク</entry>
+          <entry language="en">Affiliate</entry>
+        </multilingal>
+      </title>
+      <donation address="https://zaif.jp/?ac=jtw24dtk0o" title="Zaif" />
+      <donation address="https://bitflyer.jp/?bf=20dl0ur1" title="bitFlyer" />
+      <donation address="https://coincheck.com/?c=hFtRhdWrTIs" title="coincheck" />
+      <donation address="https://www.binance.com/?ref=17116052" title="Binance" />
+    </group>
+    <group title="Link">
+      <donation address="https://kuremako.wordpress.com/donation/" title="kuremako.wordpress.com/donation/" />
+    </group>
+
   </donations>
 </author>
