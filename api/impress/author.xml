@@ -36,11 +36,12 @@
       <donation title="Amazon Wish list" src="https://www.amazon.co.jp/registry/wishlist/2V4H9YB1CV3PV/ref=as_li_ss_tl?ie=UTF8&amp;linkCode=ll2&amp;tag=kurema_wbimpress-22&amp;linkId=b0832fb00a5f6ae2421b5bb2af45cf4a">
         <title>
           <multilingal>
-            <entry language="ja">ほしい物リスト</entry>
-            <entry language="en">Wish list</entry>
+            <entry language="ja">Amazon ほしい物リスト</entry>
+            <entry language="en">Amazon Wish list</entry>
           </multilingal>
         </title>
       </donation>
+      <donation title="Ask Mona" src="https://askmona.org/user/10377" />
     </group>
     <group title="Affiliate">
       <title>
