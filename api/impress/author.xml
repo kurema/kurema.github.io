@@ -2,6 +2,7 @@
 <author xmlns="https://github.com/kurema/WordbookImpressApp/blob/master/WordbookImpressApp/WordbookImpressLibrary/Schemas/AuthorInformation.xsd">
   <name>kurema</name>
   <links>
+    <link title="Github" src="https://github.com/kurema" />
     <link title="Kindle" src="https://www.amazon.co.jp/%E6%9A%AE%E9%96%93%E7%9C%9F/e/B077X71C4C/ref=as_li_ss_tl?ie=UTF8&amp;linkCode=ll2&amp;tag=kurema_wbimpress-22&amp;linkId=a350fe5c8d30ef7555ff3420e2edae73" />
     <link title="Twitter" src="https://twitter.com/kurema_makoto" />
     <link title="Youtube" src="https://www.youtube.com/channel/UCRXOgsw-LUdgPSN95myPw7g" />
