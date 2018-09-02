@@ -2,6 +2,22 @@
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://github.com/kurema/WordbookImpressApp/blob/master/WordbookImpressApp/WordbookImpressLibrary/Schemas/WordbookSuggestion.xsd">
   <books>
     <book>
+      <title>DOS/V POWER REPORT 2018年10月号</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">B07G1XZ6DB</id>
+        <id type="ASIN" binding="ebook">B07BWJXHGK</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118110108" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>DOSV POWER REPORT</genre>
+      <date_push>2018-09-02</date_push>
+    </book>
+    <book>
       <title>できるポケット docomo HUAWEI P20 Pro基本＆活用ワザ 完全ガイド</title>
       <ids>
         <id type="ASIN" binding="printed_book">4295004545</id>
