@@ -2,6 +2,37 @@
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://github.com/kurema/WordbookImpressApp/blob/master/WordbookImpressApp/WordbookImpressLibrary/Schemas/WordbookSuggestion.xsd">
   <books>
     <book>
+      <title>DOS/V POWER REPORT 2018年11月号</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">B07H657XF1</id>
+        <id type="ASIN" binding="ebook">B07BW896K1</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118110109" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>DOSV POWER REPORT</genre>
+      <date_push>2018-10-05</date_push>
+    </book>
+    <book>
+      <title>できるExcel VBAプログラミング入門 仕事がサクサク進む自動化プログラミングが作れる本</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295004758</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101038" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>できるシリーズ</genre>
+      <date_push>2018-10-05</date_push>
+    </book>
+    <book>
       <title>DOS/V POWER REPORT 2018年10月号</title>
       <ids>
         <id type="ASIN" binding="printed_book">B07G1XZ6DB</id>
