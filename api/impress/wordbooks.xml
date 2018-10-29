@@ -2,6 +2,69 @@
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://github.com/kurema/WordbookImpressApp/blob/master/WordbookImpressApp/WordbookImpressLibrary/Schemas/WordbookSuggestion.xsd">
   <books>
     <book>
+      <title>DOS/V POWER REPORT 2018年12月号</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">B07J34K4CH</id>
+        <id type="ASIN" binding="ebook">B07BW3XK6L</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118110110" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>DOSV POWER REPORT</genre>
+      <date_push>2018-10-29</date_push>
+    </book>
+    <book>
+      <title>いちばんやさしいRPAの教本 人気講師が教える現場のための業務自動化ノウハウ</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295004936</id>
+        <id type="ASIN" binding="ebook">B07JWFNP8Z</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101023" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>その他</genre>
+      <date_push>2018-10-29</date_push>
+    </book>
+    <book>
+      <title>徹底攻略 データベーススペシャリスト教科書 平成31年度</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295004820</id>
+        <id type="ASIN" binding="ebook">B07J2G2CF6</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101070" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>徹底攻略</genre>
+      <date_push>2018-10-29</date_push>
+    </book>
+    <book>
+      <title>徹底攻略 情報処理安全確保支援士教科書 2019年度</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295003883</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101025" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>徹底攻略</genre>
+      <date_push>2018-10-29</date_push>
+    </book>
+    <book>
       <title>DOS/V POWER REPORT 2018年11月号</title>
       <ids>
         <id type="ASIN" binding="printed_book">B07H657XF1</id>
