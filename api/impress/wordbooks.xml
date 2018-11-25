@@ -2,6 +2,85 @@
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://github.com/kurema/WordbookImpressApp/blob/master/WordbookImpressApp/WordbookImpressLibrary/Schemas/WordbookSuggestion.xsd">
   <books>
     <book>
+      <title>できるfit iPhone XS／XS Max／XR 基本+活用ワザ (au)</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295004995</id>
+        <id type="ASIN" binding="ebook">B07K7GL5Z2</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101091" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>できるポケット iPhone</genre>
+      <date_push>2018-11-25</date_push>
+    </book>
+    <book>
+      <title>できるfit iPhone XS／XS Max／XR 基本+活用ワザ (ソフトバンク)</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005002</id>
+        <id type="ASIN" binding="ebook">B07K7HJM9Q</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101092" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>できるポケット iPhone</genre>
+      <date_push>2018-11-25</date_push>
+    </book>
+    <book>
+      <title>できるfit iPhone XS／XS Max／XR 基本+活用ワザ (ドコモ)</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295004987</id>
+        <id type="ASIN" binding="ebook">B07K7HXHMG</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101090" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>できるポケット iPhone</genre>
+      <date_push>2018-11-25</date_push>
+    </book>
+    <book>
+      <title>いちばんやさしい会計の教本 人気講師が教える財務3表の読み解き方が全部わかる本</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005029</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101028" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>その他</genre>
+      <date_push>2018-11-25</date_push>
+    </book>
+    <book>
+      <title>徹底攻略 基本情報技術者教科書 2019年度</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005010</id>
+        <id type="ASIN" binding="ebook">B07KBXV5B9</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101057" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>徹底攻略</genre>
+      <date_push>2018-11-25</date_push>
+    </book>
+    <book>
       <title>DOS/V POWER REPORT 2018年12月号</title>
       <ids>
         <id type="ASIN" binding="printed_book">B07J34K4CH</id>
