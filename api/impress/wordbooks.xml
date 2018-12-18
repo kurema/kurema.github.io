@@ -2,6 +2,146 @@
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://github.com/kurema/WordbookImpressApp/blob/master/WordbookImpressApp/WordbookImpressLibrary/Schemas/WordbookSuggestion.xsd">
   <books>
     <book>
+      <title>DOS/V POWER REPORT 2019年01月号</title>
+      <ids />
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118110111" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>DOSV POWER REPORT</genre>
+      <date_push>2018-12-18</date_push>
+    </book>
+    <book>
+      <title>かんたん合格 ITパスポート教科書 2019年度</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005061</id>
+        <id type="ASIN" binding="ebook">B07KQ44Z98</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101026" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>かんたん合格</genre>
+      <date_push>2018-12-18</date_push>
+    </book>
+    <book>
+      <title>かんたん合格 基本情報技術者教科書 2019年度</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">429500507X</id>
+        <id type="ASIN" binding="ebook">B07KQ4H4S7</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101027" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>かんたん合格</genre>
+      <date_push>2018-12-18</date_push>
+    </book>
+    <book>
+      <title>かんたん合格 基本情報技術者過去問題集 2019年度春期</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">429500510X</id>
+        <id type="ASIN" binding="ebook">B07KXF2ZYQ</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101082" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>かんたん合格</genre>
+      <date_push>2018-12-18</date_push>
+    </book>
+    <book>
+      <title>PC自作・チューンナップ虎の巻 2019</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005401</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118102062" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>その他</genre>
+      <date_push>2018-12-18</date_push>
+    </book>
+    <book>
+      <title>合格しようぜ！宅建士2019 基本テキスト音声30時間付き</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005045</id>
+        <id type="ASIN" binding="ebook">B07KQ4JMQC</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101096" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>その他試験</genre>
+      <date_push>2018-12-18</date_push>
+    </book>
+    <book>
+      <title>合格しようぜ！宅建士2019 音声付きテーマ別ベストセレクト問題集</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005118</id>
+        <id type="ASIN" binding="ebook">B07L3PKPW2</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101097" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>その他試験</genre>
+      <date_push>2018-12-18</date_push>
+    </book>
+    <book>
+      <title>合格しようぜ！宅建士2019 音声付き過去15年問題集</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005266</id>
+        <id type="ASIN" binding="ebook">B07LF6JY2Q</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101098" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>その他試験</genre>
+      <date_push>2018-12-18</date_push>
+    </book>
+    <book>
+      <title>徹底攻略 応用情報技術者教科書 2019年度</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005037</id>
+        <id type="ASIN" binding="ebook">B07LBR4GPM</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101095" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>徹底攻略</genre>
+      <date_push>2018-12-18</date_push>
+    </book>
+    <book>
       <title>できるfit iPhone XS／XS Max／XR 基本+活用ワザ (au)</title>
       <ids>
         <id type="ASIN" binding="printed_book">4295004995</id>
