@@ -4648,21 +4648,5 @@
         <url>https://impress.quizgenerator.net/impress/32impress/</url>
       </access>
     </wordbook>
-    <wordbook>
-      <title>【でる語句200】ITパスポート Ver.2.0</title>
-      <title>ITパスポート Ver.2.0</title>
-      <id>https://impress2.quizgenerator.net/</id>
-      <access>
-        <url>https://impress2.quizgenerator.net/</url>
-      </access>
-    </wordbook>
-    <wordbook>
-      <title>【でる語句200】情報セキュリティマネジメント</title>
-      <title>情報セキュリティマネジメント</title>
-      <id>https://impress2.quizgenerator.net/</id>
-      <access>
-        <url>https://impress2.quizgenerator.net/</url>
-      </access>
-    </wordbook>
   </wordbooks>
 </info>
