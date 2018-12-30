@@ -2,6 +2,114 @@
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://github.com/kurema/WordbookImpressApp/blob/master/WordbookImpressApp/WordbookImpressLibrary/Schemas/WordbookSuggestion.xsd">
   <books>
     <book>
+      <title>DOS/V POWER REPORT 2019年02月号</title>
+      <ids />
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118110112" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>DOSV POWER REPORT</genre>
+      <date_push>2018-12-30</date_push>
+    </book>
+    <book>
+      <title>かんたん合格 ITパスポート過去問題集 2019年度 春期</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005142</id>
+        <id type="ASIN" binding="ebook">B07L8XC6WB</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101089" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>かんたん合格</genre>
+      <date_push>2018-12-30</date_push>
+    </book>
+    <book>
+      <title>できるPhotoshop Elements 2019 Windows&amp;macOS対応</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005347</id>
+        <id type="ASIN" binding="ebook">B07LF7KDG6</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101109" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>できるシリーズ</genre>
+      <date_push>2018-12-30</date_push>
+    </book>
+    <book>
+      <title>できるWindows 10 パーフェクトブック 困った！＆便利ワザ大全 改訂4版</title>
+      <ids>
+        <id type="ASIN" binding="ebook">B07LG47FVC</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101114" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>できるシリーズ</genre>
+      <date_push>2018-12-30</date_push>
+    </book>
+    <book>
+      <title>できるWindows 10 改訂4版</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005290</id>
+        <id type="ASIN" binding="ebook">B07MKFVXC5</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101113" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>できるシリーズ</genre>
+      <date_push>2018-12-30</date_push>
+    </book>
+    <book>
+      <title>徹底攻略 情報セキュリティマネジメント教科書 2019年度</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005339</id>
+        <id type="ASIN" binding="ebook">B07MD7TJ3B</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101111" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>徹底攻略</genre>
+      <date_push>2018-12-30</date_push>
+    </book>
+    <book>
+      <title>徹底攻略 情報セキュリティマネジメント過去問題集 2019年度春期</title>
+      <ids>
+        <id type="ASIN" binding="printed_book">4295005274</id>
+        <id type="ASIN" binding="ebook">B07LF7HBG3</id>
+      </ids>
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101110" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>徹底攻略</genre>
+      <date_push>2018-12-30</date_push>
+    </book>
+    <book>
       <title>DOS/V POWER REPORT 2019年01月号</title>
       <ids />
       <images />
@@ -4538,6 +4646,22 @@
       <id>quiz32impress</id>
       <access>
         <url>https://impress.quizgenerator.net/impress/32impress/</url>
+      </access>
+    </wordbook>
+    <wordbook>
+      <title>【でる語句200】ITパスポート Ver.2.0</title>
+      <title>ITパスポート Ver.2.0</title>
+      <id>https://impress2.quizgenerator.net/</id>
+      <access>
+        <url>https://impress2.quizgenerator.net/</url>
+      </access>
+    </wordbook>
+    <wordbook>
+      <title>【でる語句200】情報セキュリティマネジメント</title>
+      <title>情報セキュリティマネジメント</title>
+      <id>https://impress2.quizgenerator.net/</id>
+      <access>
+        <url>https://impress2.quizgenerator.net/</url>
       </access>
     </wordbook>
   </wordbooks>
