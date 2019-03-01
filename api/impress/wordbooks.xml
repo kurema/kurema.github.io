@@ -2,6 +2,58 @@
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://github.com/kurema/WordbookImpressApp/blob/master/WordbookImpressApp/WordbookImpressLibrary/Schemas/WordbookSuggestion.xsd">
   <books>
     <book>
+      <title>DOS/V POWER REPORT 2019年03月号</title>
+      <ids />
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118110113" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>DOSV POWER REPORT</genre>
+      <date_push>2019-03-01</date_push>
+    </book>
+    <book>
+      <title>DOS/V POWER REPORT 2019年04月号</title>
+      <ids />
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118110114" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>DOSV POWER REPORT</genre>
+      <date_push>2019-03-01</date_push>
+    </book>
+    <book>
+      <title>徹底攻略 ITパスポート教科書＋模擬問題 2019年度</title>
+      <ids />
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101108" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>徹底攻略</genre>
+      <date_push>2019-03-01</date_push>
+    </book>
+    <book>
+      <title>徹底攻略 応用情報技術者過去問題集 2019年度</title>
+      <ids />
+      <images />
+      <links>
+        <link ref="https://book.impress.co.jp/books/1118101112" type="impress" />
+      </links>
+      <special>
+        <ebook />
+      </special>
+      <genre>徹底攻略</genre>
+      <date_push>2019-03-01</date_push>
+    </book>
+    <book>
       <title>DOS/V POWER REPORT 2019年02月号</title>
       <ids />
       <images />
