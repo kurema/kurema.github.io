@@ -9,6 +9,15 @@
     <link title="Blog" src="https://kuremako.wordpress.com" />
   </links>
   <donations>
+    <group title="Be a sponsor">
+      <title>
+        <multilingal>
+          <entry language="ja">支援</entry>
+          <entry language="en">Be a sponsor</entry>
+        </multilingal>
+      </title>
+      <donation src="https://github.com/sponsors/kurema" title="GitHub Sponsors" />
+    </group>
     <group title="Crypto Currency">
       <title>
         <multilingal>
@@ -31,7 +40,7 @@
       <title>
         <multilingal>
           <entry language="ja">プレゼント</entry>
-          <entry language="en">Crypto Currency</entry>
+          <entry language="en">Present</entry>
         </multilingal>
       </title>
       <donation title="Amazon Wish list" src="https://www.amazon.co.jp/registry/wishlist/2V4H9YB1CV3PV/ref=as_li_ss_tl?ie=UTF8&amp;linkCode=ll2&amp;tag=kurema_wbimpress-22&amp;linkId=b0832fb00a5f6ae2421b5bb2af45cf4a">
@@ -59,6 +68,5 @@
     <group title="Link">
       <donation src="https://kuremako.wordpress.com/donation/" title="kuremako.wordpress.com/donation/" />
     </group>
-
   </donations>
 </author>
