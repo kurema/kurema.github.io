@@ -1,2 +1,5 @@
 # AdMob
 google.com, pub-2283413819561540, DIRECT, f08c47fec0942fa0
+# Admob demo ad
+# https://developers.google.com/admob/android/test-ads
+google.com, pub-3940256099942544, DIRECT, f08c47fec0942fa0
